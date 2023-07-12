@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
+
+header .bck-img {
+    position: absolute;
+    background-image: url(media/img/indir.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 46rem;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+header .content {
+    color: white;
+    height: 46rem;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+header {
+    height: 46rem;
+}
+
+header .content a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 1.4rem 1rem;
+    border-radius: 8px;
+}
+
+header .content a:hover {
+    background-color: white;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#sec-a .content {
+    background-color: #fff;
+    color: #333;
+    padding: 2rem 0;
+    margin-bottom: 1.6rem;
+}
+
+#sec-b img {
+    width: 100%;
+    height: auto;
+}
+
+#sec-b li {
+    background-color: #fff;
+    margin: 1.6rem;
+    list-style: none;
+    color: #333;
+}
+
+#sec-b li a {
+    text-decoration: none;
+}
+
+#sec-c .content {
+    background-color: #fff;
+    padding: 3.5rem;
+    color: #333;
+}
+
+#sec-d .box {
+    padding: 3rem;
+    color: #fff;
+}
+
+#sec-d .box:first-child {
+    background-color: darkslategray;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    html {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    html {
+        font-size: 11px;
+    }
+
+    #sec-b li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    .box {
+        width: 50%;
+        float: left;
+    }
+
+    #sec-b li p{
+        text-align: center;
+        padding: 0 0.5rem;
+    }
+
+}
